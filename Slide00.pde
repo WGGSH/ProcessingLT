@@ -1,5 +1,5 @@
-class Slide01 extends Slide{
-	Slide01(LT lt,ArrayList<Slide> slideList){
+class Slide00 extends Slide{
+	Slide00(LT lt,ArrayList<Slide> slideList){
 		super(lt,slideList);
 	}
 

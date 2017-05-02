@@ -2,13 +2,18 @@ class LT{
 	int slideIndex; // 現在表示中のスライド
 	ArrayList<Slide> slideList; // スライドリスト
 
+	Font font; // フォントクラス
+
 	LT(){
 		this.slideList=new ArrayList<Slide>();
 		this.slideList.add(new Slide01(this,this.slideList));
 		this.slideIndex=0;
+
+		this.font=new Font();
 	}
 
 	public void setup(){
+		this.font.setup();
 	}
 
 	public void update(){

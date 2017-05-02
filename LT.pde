@@ -1,12 +1,15 @@
 class LT{
+	private Slide slide;
 
 	LT(){
+		slide=new Slide01();
 	}
 
 	public void setup(){
 	}
 
 	public void update(){
+		slide.update();
 
 
 		this.capture();

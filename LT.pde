@@ -19,7 +19,6 @@ class LT{
 
 	public void update(){
 		this.slideList.get(this.slideIndex).update();
-		println(this.slideList.get(this.slideIndex).getClass());
 		this.slideMove();
 		this.capture();
 	}
@@ -54,6 +53,7 @@ class LT{
 
 		if(change){
 			this.slideList.get(this.slideIndex).setup();
+			println("slide changed to "+this.slideList.get(this.slideIndex).getClass());
 		}
 	}
 

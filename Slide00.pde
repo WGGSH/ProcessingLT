@@ -1,7 +1,7 @@
 class Slide00 extends Slide{
 	Slide00(LT lt,ArrayList<Slide> slideList){
 		super(lt,slideList);
-		this.backImage=loadImage("slide/00.png");
+		this.backImage=loadResource(RESOURCE.SLIDE00);
 	}
 
 	void setup(){
